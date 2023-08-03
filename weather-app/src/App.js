@@ -32,7 +32,6 @@ function App() {
         <Weather weatherData={data}/>
       ): (
         <div>
-
         </div>
       )}
 

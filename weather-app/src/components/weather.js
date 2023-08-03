@@ -1,17 +1,17 @@
 import React from 'react';
 import './styles.css';
 import moment from 'moment';
-//import { Button } from 'semantic-ui-react';
+import { Button } from 'semantic-ui-react';
 
-/*const refresh = () => {
+const refresh = () => {
     window.location.reload();
-};*/
+};
 
 const WeatherCard = ({weatherData}) => (
     <div className="main">
         <div className="top">
             <p className="header">{weatherData.name}</p>
-            </div>
+        </div>
 
         <div className='flex'>
             <p className="day">Day: {moment().format('dddd')}</p>
